@@ -11,7 +11,7 @@ Per Stephansen,Per,Stephansen,PerSte,Sala
 
 New-LocalUser -Name "GudEir" -FullName "Guðríður Eiríksdóttir" -NoPassword
 
-New-LocalUser -Name "EvaMar" -FullName"Eva Markúsdóttir" -NoPassword
+New-LocalUser -Name "EvaMar" -FullName "Eva Markúsdóttir" -NoPassword
 
 New-LocalUser -Name "AsdMag" -FullName "Ásdís Magnúsdóttir" -NoPassword 
 
