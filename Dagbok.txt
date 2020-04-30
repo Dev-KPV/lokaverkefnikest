@@ -1,0 +1,10 @@
+# 24. Apríl
+   Var nú þegar með VirtualBox og Windows 10 Enterprise, Bridged Adapter var Stillt
+   
+ 
+# 26.Apríl
+   Notaði Google til að búa til notendur og grúppu í Powershell
+   
+# 30.Apríl
+   Gerði Möppur, Réttindi og Ping
+   
