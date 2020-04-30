@@ -1,2 +1,2 @@
 # lokaverkefnikest
-https://github.com/Dev-KPV/lokaverkefnikest/wiki
+### Myndir  = https://github.com/Dev-KPV/lokaverkefnikest/wiki
