@@ -8,7 +8,7 @@ Baldvin Kr Baldvinsson,Baldvin,Baldvinsson,BalBal,Sala
 Ólafur Þór Leifsson,Ólafur,Leifsson,OlaLei,Sala
 Guðmundur Óskar Bjarnason,Guðmundur,Bjarnason,GudBja,Sala
 Per Stephansen,Per,Stephansen,PerSte,Sala
-# Búa Til Users
+
 New-LocalUser -Name "GudEir" -FullName "Guðríður Eiríksdóttir" -NoPassword
 
 New-LocalUser -Name "EvaMar" -FullName"Eva Markúsdóttir" -NoPassword
@@ -27,10 +27,31 @@ New-LocalUser -Name "GudBja" -FullName "Guðmundur Óskar Bjarnason" -NoPassword
 
 New-LocalUser -Name "PerSte" -FullName "Per Stephansen" -NoPassword
 
-Add-LocalGroupMember -Group "Yfirstjorn" -Member "GudEir","EvaMar"
 
-Add-LocalGroupMember -Group "Innkaup" -Member "AsdMag,VilTra"
 
-Add-LocalGroupMember -Group "Sala" -Member "KriSno, BalBal, OlaLei, GudBja, PerSte"
+Add-LocalGroupMember -Group "Yfirstjorn" -Member "GudEir"
+Add-LocalGroupMember -Group "Yfirstjorn" -Member "EvaMar"
+Add-LocalGroupMember -Group "Innkaup" -Member "AsdMag"
+Add-LocalGroupMember -Group "Innkaup" -Member "VilTra"
+Add-LocalGroupMember -Group "Sala" -Member "KriSno"
+Add-LocalGroupMember -Group "Sala" -Member "BalBal"
+Add-LocalGroupMember -Group "Sala" -Member "OlaLei"
+Add-LocalGroupMember -Group "Sala" -Member "GudBja"
+Add-LocalGroupMember -Group "Sala" -Member "PerSte"
+Add-LocalGroupMember -Group "Allir" -Member "GudEir"
 
-Add-LocalGroupMember -Group "Allir" -Member "GudEir, EvaMar, KriSno, BalBal, OlaLei, GudBja, PerSte, AsdMag, VilTra"
+Add-LocalGroupMember -Group "Allir" -Member "EvaMar"
+
+Add-LocalGroupMember -Group "Allir" -Member "KriSno"
+
+Add-LocalGroupMember -Group "Allir" -Member "BalBal"
+
+Add-LocalGroupMember -Group "Allir" -Member "VilTra"
+
+Add-LocalGroupMember -Group "Allir" -Member "AsdMag"
+
+Add-LocalGroupMember -Group "Allir" -Member "OlaLei"
+
+Add-LocalGroupMember -Group "Allir" -Member "GudBja"
+
+Add-LocalGroupMember -Group "Allir" -Member "PerSte"
